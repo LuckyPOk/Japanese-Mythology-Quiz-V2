@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Japanese Mythology Quiz</title>
+	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<script src="quizproject.js"></script>
+	<link rel="stylesheet" type="text/css" href="quizproject.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="manifest" href="manifest.json">
+  
+</head>
+<body>
+
+<div id="lightbox" onclick="closeLightBox()">
+   <div id="message">This is the message</div>
+</div>
+
+<h1 class="title">Japanese Mythology Quiz</h1>
+
+<div class="grid-container">
+  <div class="header">
+    <div id="question">The Question</div>
+  </div>
+  
+  <div class="left">
+    <div>
+    
+     <div class="options" id="a" onclick="markIt('a')">A.</div>
+	 <div class="options" id="b" onclick="markIt('b')">B.</div>
+     <div class="options" id="c" onclick="markIt('c')">C.</div>
+	 <div class="options" id="d" onclick="markIt('d')">D.</div>
+	</div>
+	
+	<div id="hint">
+	You have used 0 / 3 hints.
+	</div>
+  </div> 
+
+  
+  <div class="right"> <img id="image" src="quizimages/q1.jpg" alt="Images."></div>
+  
+  <div class="footer1">
+    <p id="hintButton">Hint?</p>
+  </div>
+  
+  <div class="footer2">
+	<p id="countdown">0 seconds remaining</p>
+    <p>Score  <span id="score"></span></p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
